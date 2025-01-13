@@ -50,7 +50,7 @@ unittest_teardown()
 
 unittest(test_constructor_TCS3210)
 {
-  TCS3210 TCS;
+  TCS3210 TCS(4,5,6, 7,8,9);
 
   assertTrue(TCS.begin());
 }
@@ -58,7 +58,7 @@ unittest(test_constructor_TCS3210)
 
 unittest(test_constructor_TCS3200)
 {
-  TCS3200 TCS;
+  TCS3200 TCS(4,5,6, 7,8,9);;
 
   assertTrue(TCS.begin());
 }
