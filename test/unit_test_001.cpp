@@ -53,6 +53,7 @@ unittest(test_constructor_TCS3210)
   TCS3210 TCS(4,5,6, 7,8,9);
 
   assertTrue(TCS.begin());
+  assertEqual(10, TCS.getType());
 }
 
 
@@ -61,6 +62,7 @@ unittest(test_constructor_TCS3200)
   TCS3200 TCS(4,5,6, 7,8,9);;
 
   assertTrue(TCS.begin());
+  assertEqual(00, TCS.getType());
 }
 
 
